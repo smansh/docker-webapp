@@ -3,13 +3,13 @@
 const express = require('express');
 
 // Constants
-const PORT = 8080;
+const PORT = 8070;
 const HOST = '0.0.0.0';
 
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello world\n');
+  res.send('Welocome to nodejs-docker-webapp\n');
 });
 
 app.listen(PORT, HOST);
